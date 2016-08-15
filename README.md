@@ -22,3 +22,6 @@ In case the application coredumps to file 'core' the following comamnd can be us
 ```
 cat core | strings | grep BUILD_
 ```
+
+Limitations:
+Length of tag string is limited to 62 characters right now. Max length is defined by constant. In future this contstant should be replaced by actual length of provided tag-string.
