@@ -1,6 +1,6 @@
 # rust-crashtag
 
-'crashtag' provides tooling for crashtags for Rust for post-mortem analysis.
+The crate 'crashtag' provides tooling for for post-mortem analysis for Rust .
 
 Crashtags are placed in context of main() function or on stack of any other thread. These tags will placed on stack and in case the application is crashing, these tags are embedded into the core dump file.
 
