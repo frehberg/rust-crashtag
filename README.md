@@ -17,3 +17,7 @@ fn main() {
 
 }
 ```
+In case the application coredumps to file 'core' the following comamnd can be used to extract the tags from core-file:
+```
+cat core | strings | grep BUILD_
+```
