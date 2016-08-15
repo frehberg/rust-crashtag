@@ -4,7 +4,7 @@ The crate 'crashtag' provides tooling for for post-mortem analysis for Rust .
 
 Crashtags are placed in context of main() function or on stack of any other thread. These tags will placed on stack and in case the application is crashing, these tags are embedded into the core dump file.
 
-Post-mortem these tags can be extracted from core-dump file, for example release informatiop or application config.
+Post-mortem these tags can be extracted from core-dump file, for example release information or application config.
 
 Example: file main.rs
 ```
