@@ -4,6 +4,6 @@ version = "0.1.0"
 authors = ["Frank Rehberger <frehberg@gmail.com>"]
 description = "Define crashtags being embedded in crash-files 'core'"
 license = "Apache-2.0"
-documentation = "Crashtags are placed on stack of main() function. For example release information and application config at execution time. Extract the tag with command 'cat core|strings| grep BUILD_TAG'"
+documentation = "https://github.com/frehberg/rust-crashtag"
 
 [dependencies]
