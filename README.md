@@ -1,2 +1,17 @@
 # rust-crashtag
-Tooling for crash-tags, which can be extracted from core files of rust applications
+Providing tooling for crashtags for Rust.
+
+Crashtags are placed on stack of main() function. These tags will be written to core-dump file in case of any crash. 
+
+These tags can be extraced from core-dump file, for example release informatiop or application config.
+
+Example: file main.rs
+#![feature(asm)] 
+#[macro_use(crashtag)]
+extern crate crashtag;
+
+fn main() {
+    crashtag!("BUILD_TAG=MAIN_2016-wk16-05");
+    crashtag!("BUILD_HOST=host1");
+
+}
