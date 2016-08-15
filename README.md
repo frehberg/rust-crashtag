@@ -6,6 +6,7 @@ Crashtags are placed on stack of main() function. These tags will be written to 
 These tags can be extraced from core-dump file, for example release informatiop or application config.
 
 Example: file main.rs
+```
 #![feature(asm)] 
 #[macro_use(crashtag)]
 extern crate crashtag;
@@ -15,3 +16,4 @@ fn main() {
     crashtag!("BUILD_HOST=host1");
 
 }
+```
