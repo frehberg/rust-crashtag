@@ -1,9 +1,11 @@
 [package]
 name = "crashtag"
-version = "0.1.0"
+version = "0.1.1"
 authors = ["Frank Rehberger <frehberg@gmail.com>"]
-description = "Define crashtags being embedded in crash-files 'core'"
+description = "DEPRECATED - THE CRATE HAS BEEN RENAMED TO https://crates.io/crates/releasetag - Define crashtags being embedded in crash-files 'core'. "
 license = "Apache-2.0"
 documentation = "https://github.com/frehberg/rust-crashtag"
+homepage = "https://github.com/frehberg/rust-crashtag"
+repository = "https://github.com/frehberg/rust-crashtag"
 
 [dependencies]
